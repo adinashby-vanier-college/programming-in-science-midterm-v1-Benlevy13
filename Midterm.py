@@ -21,7 +21,7 @@ def hollow_right_triangle(n):
 
 # Q3: Inverted Pyramid
 def inverted_pyramid(n):
-        result = ""
+    result = ""
     if n >= 3:
         for i in range(n):
             result += " " * i + "*" * ((2 * n - 1) - (2 * i)) 
